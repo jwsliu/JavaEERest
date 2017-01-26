@@ -33,6 +33,12 @@
                 <artifactId>geronimo-servlet_3.0_spec</artifactId>
                 <version>1.0</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/javax/javaee-api -->
+			<dependency>
+				<groupId>javax</groupId>
+				<artifactId>javaee-api</artifactId>
+				<version>7.0</version>
+			</dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -42,6 +48,11 @@
             <artifactId>geronimo-servlet_3.0_spec</artifactId>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
     </dependencies>
 
     <build>
